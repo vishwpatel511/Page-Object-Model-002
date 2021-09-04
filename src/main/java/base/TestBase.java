@@ -20,7 +20,7 @@ public class TestBase {
 			  }
 			  
 			  else if(browser.equalsIgnoreCase("chrome")) {
-				  	System.setProperty("webdriver.chrome.driver","C:\\Users\\vishw\\Desktop\\Study Material\\SeleniumJar\\chromedriver.exe");
+				  	System.setProperty("webdriver.chrome.driver","C:\\Users\\vishw\\Desktop\\chromedriver.exe");
 					driver = new ChromeDriver();
 				  }
 			  else if(browser.equalsIgnoreCase("firefox")) {
