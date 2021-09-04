@@ -5,13 +5,7 @@
 <listeners>
 <listener class-name="ExtentReportListener.ExtentreportListener"/>
 </listeners>
-  <test thread-count="5" name="Test123">
-    <parameter name="browserName" value = "firefox"/>
-    <classes>
-      <class name="tests.HalisBurtonCountyTest"/>
-      <class name="tests.indexpageTest"/>
-    </classes>
-  </test> <!-- Test -->
+ 
   
   <test thread-count="5" name="Test456">
     <parameter name="browserName" value = "chrome"/>
@@ -20,13 +14,6 @@
       <class name="tests.indexpageTest"/>
     </classes>
   </test> <!-- Test -->
-  
-  <test thread-count="5" name="Test789">
-    <parameter name="browserName" value = "IE"/>
-    <classes>
-      <class name="tests.HalisBurtonCountyTest"/>
-      <class name="tests.indexpageTest"/>
-    </classes>
-  </test> <!-- Test -->
+
 </suite> <!-- Suite -->
 
