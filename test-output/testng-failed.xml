@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentreportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)" verbose="0">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="tests.indexpageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="delibratelyFailedTest"/>
+        </methods>
+      </class> <!-- tests.indexpageTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
